@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaAccesoADatos", "DAL\CapaAccesoADatos.csproj", "{DF6106F6-418D-4C77-930B-E7CBD627E930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "Entidades\CapaEntidades.csproj", "{156A9D20-1D6E-4A0C-8348-82A7ED31A40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "BL\CapaNegocio.csproj", "{B1EEFEA0-98D8-46BA-922F-A6BC6C906593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "WEB\CapaPresentacion.csproj", "{DBFDA261-7731-4C81-800F-8CFFB5E9309A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{FC33F367-0758-4E50-87C2-69B24E90FEB5}"
+	ProjectSection(SolutionItems) = preProject
+		Create Table  JGSupport.sql = Create Table  JGSupport.sql
+		Insercion datos fecha formato mmddyyyy.sql = Insercion datos fecha formato mmddyyyy.sql
+		Insercion datos fecha formato yyyymmdd.sql = Insercion datos fecha formato yyyymmdd.sql
+		Insercion datos.sql = Insercion datos.sql
+		SP Table Personal.sql = SP Table Personal.sql
+		SP Table Solicitud.sql = SP Table Solicitud.sql
+		SP Table Tarea.sql = SP Table Tarea.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6106F6-418D-4C77-930B-E7CBD627E930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6106F6-418D-4C77-930B-E7CBD627E930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6106F6-418D-4C77-930B-E7CBD627E930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6106F6-418D-4C77-930B-E7CBD627E930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156A9D20-1D6E-4A0C-8348-82A7ED31A40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156A9D20-1D6E-4A0C-8348-82A7ED31A40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156A9D20-1D6E-4A0C-8348-82A7ED31A40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156A9D20-1D6E-4A0C-8348-82A7ED31A40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EEFEA0-98D8-46BA-922F-A6BC6C906593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EEFEA0-98D8-46BA-922F-A6BC6C906593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EEFEA0-98D8-46BA-922F-A6BC6C906593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EEFEA0-98D8-46BA-922F-A6BC6C906593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFDA261-7731-4C81-800F-8CFFB5E9309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFDA261-7731-4C81-800F-8CFFB5E9309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFDA261-7731-4C81-800F-8CFFB5E9309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFDA261-7731-4C81-800F-8CFFB5E9309A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98ECC83F-4A7A-4EB5-A89C-FCA7725E0E4D}
+	EndGlobalSection
+EndGlobal

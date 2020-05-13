@@ -1,0 +1,7 @@
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\bin\Debug\DAL.dll
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\bin\Debug\DAL.pdb
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\bin\Debug\Entidades.dll
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\bin\Debug\Entidades.pdb
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\obj\Debug\CapaAccesoADatos.csprojResolveAssemblyReference.cache
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\obj\Debug\DAL.dll
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\DAL\obj\Debug\DAL.pdb

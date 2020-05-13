@@ -1,0 +1,4 @@
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\Entidades\bin\Debug\Entidades.dll
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\Entidades\obj\Debug\Entidades.dll
+C:\Users\Sapia\Downloads\Facturacion Martin Marzo 2020\JGSupport\JGSupport\Entidades\obj\Debug\Entidades.pdb

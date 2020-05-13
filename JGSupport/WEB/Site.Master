@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WEB.CRM" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+                <asp:ScriptManager ID="ScriptManagerMaster" runat="server"></asp:ScriptManager>
+
+
+
+
+
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid"> <!-- Con esto agrupo y centro el texto en el navbar-->
+                <ul class="nav navbar-nav"> <!-- Creo una lista que por defecto se acomoda a la izq -->
+                    <li>
+                        <asp:HyperLink ID="HyperLinkInicio" runat="server" CssClass="navbar-brand" NavigateUrl="~/Home.aspx">JGSupport</asp:HyperLink>
+                    </li>
+
+                    <li>
+                        <asp:HyperLink ID="HyperLinkAdministracion" runat="server" CssClass="navbar-brand" NavigateUrl="~/ListarUsuarios.aspx">Administrar Usuarios</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLinkNuevaSolicitud" runat="server" CssClass="navbar-brand" NavigateUrl="~/AltaSolicitud.aspx">Nueva Solicitud</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLinkNuevoParte" runat="server" CssClass="navbar-brand" NavigateUrl="~/AltaParte.aspx">Nuevo Parte</asp:HyperLink>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right"><!-- Creo otra lista que se posiciona a la derecha-->
+                    <li>
+                        <asp:HyperLink ID="HyperLinkConfiguracion" runat="server" CssClass="navbar-brand" NavigateUrl="~/Configuracion.aspx">Configuración</asp:HyperLink>
+                    </li>
+
+                    <li>
+                        <asp:HyperLink ID="HyperLinkAyuda" runat="server" CssClass="navbar-brand" NavigateUrl="~/Ayuda.aspx">Ayuda</asp:HyperLink>
+                    </li>
+
+                    <li>
+                        <asp:HyperLink ID="HyperLinkCerrarSession" runat="server" CssClass="navbar-brand" NavigateUrl="~/Login.aspx">Cerrar Sesión</asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <%-- Contenido--%>
+        <div style="margin-left: 10px; margin-right: 10px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
